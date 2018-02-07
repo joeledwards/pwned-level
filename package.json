@@ -1,6 +1,6 @@
 {
   "name": "pwned-level",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "LevelDB backed lookup server for the pwned passwords dataset",
   "main": "lib/server.js",
   "bin": {
