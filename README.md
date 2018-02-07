@@ -4,17 +4,22 @@ LevelDB-backed Node.js REST API for checking hashes against the [haveibeenpwned.
 
 ## Setup
 
-```
-$ npm i -g pwned-level
+```shell
+npm i -g pwned-level
 ```
 
 ## Importing data
 
-```
-$ pwned-level import <password-data> <level-db-path>
+```shell
+pwned-level import <password-data> <level-db-path>
 ```
 
 ## Running the server
+```shell
+pwned-level server -d <level-db-path>
 ```
-$ pwned-level server -d <level-db-path>
+
+## Testing
+```shell
+npx aqui get http://localhost:8080/<some-hash>
 ```
