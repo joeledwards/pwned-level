@@ -1,0 +1,43 @@
+{
+  "name": "pwned-level",
+  "version": "1.0.0",
+  "description": "LevelDB backed lookup server for the pwned passwords dataset",
+  "main": "lib/server.js",
+  "bin": {
+    "pwned-level": "bin/pwned-level.js"
+  },
+  "scripts": {
+    "test": "tap test/pwned.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joeledwards/pwned-level.git"
+  },
+  "keywords": [
+    "pwned",
+    "passwords",
+    "leveldb",
+    "rest"
+  ],
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeledwards/pwned-level/issues"
+  },
+  "homepage": "https://github.com/joeledwards/pwned-level#readme",
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tap": "^11.1.0"
+  },
+  "dependencies": {
+    "@buzuli/color": "^1.2.0",
+    "@buzuli/throttle": "^2.0.2",
+    "byline": "^5.0.0",
+    "durations": "^3.4.1",
+    "express": "^4.16.2",
+    "leveldown": "^3.0.0",
+    "levelup": "^2.0.1",
+    "ramda": "^0.25.0",
+    "yargs": "^11.0.0"
+  }
+}
